@@ -8,12 +8,12 @@ on:
   workflow_dispatch:
     inputs:
       make_release:
-        description: 'Do you want to create a release?'
+        description: 'Bạn có muốn tạo một bản phát hành?'
         required: true
         type: boolean
         default: true
       ksun_branch:
-        description: "Choose KernelSU Next Branch"
+        description: "Chọn Kernelsu Chi nhánh tiếp theo"
         required: true
         type: choice
         options:
